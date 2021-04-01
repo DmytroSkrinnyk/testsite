@@ -1,0 +1,17 @@
+.footer{
+    background: #404149;
+    padding: 30px 0 30px;
+
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+        &-description{
+            font: 400 16px Open Sans;
+            line-height: 22px;
+            color: #FFFFFF;
+        }
+    }
+}

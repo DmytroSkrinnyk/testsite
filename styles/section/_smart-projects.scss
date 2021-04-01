@@ -1,0 +1,20 @@
+.smart-projects{
+    background: #F7654A;
+}
+.smart__project__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0 45px;
+
+    &-title{
+        font: 500 48px Oswald;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+    }
+    &-description{
+        font: 500 24px Oswald;
+        font-size: 24px;
+        color: #FFFFFF;
+    }
+}

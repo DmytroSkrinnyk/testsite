@@ -1,0 +1,18 @@
+.partners{
+    background: #404149;
+    padding: 100px 0;
+
+    &-title{
+        color: #FFFFFF;
+        margin-bottom: 60px;
+    }
+    &__berksho{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 64px;
+    }
+
+
+}

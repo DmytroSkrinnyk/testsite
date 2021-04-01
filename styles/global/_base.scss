@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #ffffff;
+    margin: 0;
+
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+button{
+    outline: none;
+    cursor: pointer;
+}
+.font__family-oswald{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+}
+.font__family-open-sans{
+    font: 400 16px Open Sans;
+    line-height: 22px;
+    color: #999999;
+}
+.title{
+    font: 500 36px Oswald ;
+    text-align: center;
+    color: #404149;
+}
+.font__family-oswald-title{
+    font: 500 24px Oswald ;
+    text-align: center;
+    color: #999999;
+    margin-bottom: 25px;
+}
+.font__family-oswald-description{
+    font: 500 24px Oswald ;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+}

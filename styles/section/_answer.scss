@@ -1,0 +1,52 @@
+.answer__container{
+    padding: 150px 0 150px;
+
+    &-title {
+        font-size: 24px;
+        color: #F7654A;
+        text-align: start;
+        position: relative;
+        padding-left: 15px;
+        
+    &:not(:last-child){
+        margin-bottom: 40px;
+    }
+    &:before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        width: 15px;
+        height: 15px;
+        background: url(../images/triangle.png) no-repeat;
+    
+        }
+    }
+    &-description{
+        display: none;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 22px;
+        color: #999999;
+        margin-top: 30px;
+    }
+}
+.answer__container-title-question{
+    margin-bottom: 64px;
+}
+.check{
+    display: none;
+    
+    &:checked ~ .answer__container-description{
+    display: block;
+}
+
+
+}
+.accord:not(:last-child){
+    margin-bottom: 40px
+}
+

@@ -1,0 +1,37 @@
+.buildings{
+    padding: 150px 0 150px;
+
+    &__title{
+        margin-bottom: 66px;
+        font: 500 36px Oswald;
+        color: #000000;
+        text-align: center;
+    }
+}
+.office__buildings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    &-item{
+        background: #F7F7F7;
+        width: 350px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+
+        &-title{
+            font: 500 21px Oswald;
+            line-height: 31px;
+            text-align: center;
+            max-width: 200px;
+            width: 100%;
+        }
+
+    }
+}

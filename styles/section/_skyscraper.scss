@@ -1,0 +1,14 @@
+.skyscraper{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 480px;
+    justify-content: center;
+
+    &__photo{
+        background-image: url(../images/skyscraper.png);
+        background-size: cover;
+        max-width: 480px;
+        width: 100%;
+        height: 407px;
+    }
+}

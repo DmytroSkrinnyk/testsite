@@ -1,0 +1,49 @@
+.projects{
+    padding: 250px 0 180px;
+
+    &-title{
+        padding-top: 60px;
+        position: relative;;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        color: #404149;
+
+        
+    }
+    &__container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 60px;
+
+        &-item{
+            max-width: 350px;
+            width: 100%;
+            
+            &-title{
+                padding-top: 60px;
+                position: relative;
+                text-align: start;
+                font-size: 24px;
+                color: #404149;
+
+                &:before{
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    width: 55px;
+                    height: 6px;
+                    background: #F7654A;
+                    bottom: 45px;
+                    }
+            }
+            &-description{
+                margin-top: 20px;
+                text-align: start;
+            }
+        }
+    }
+}
