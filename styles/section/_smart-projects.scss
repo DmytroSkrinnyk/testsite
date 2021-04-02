@@ -18,3 +18,17 @@
         color: #FFFFFF;
     }
 }
+@media screen and (max-width:1180px){
+    .smart__project__container{
+        flex-direction: column;
+
+        &-description{
+            margin-bottom: 20px;
+        }
+    }
+}
+@media screen and (max-width:570px){
+    .smart__project__container{
+        width: 90%;
+    }
+}

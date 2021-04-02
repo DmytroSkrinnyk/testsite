@@ -471,6 +471,12 @@ button {
   height: 50px;
 }
 
+@media screen and (max-width: 1180px) {
+  .header__container {
+    width: 90%;
+  }
+}
+
 .hero__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -508,12 +514,14 @@ button {
       flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  gap: 50px;
   color: #000000;
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   top: 82%;
+  margin: 0 15px;
 }
 
 .years__container-item {
@@ -625,6 +633,24 @@ button {
   font: 500 24px Oswald;
   font-size: 24px;
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 1180px) {
+  .smart__project__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .smart__project__container-description {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .smart__project__container {
+    width: 90%;
+  }
 }
 
 .buildings {
@@ -757,6 +783,15 @@ button {
 
 .accord:not(:last-child) {
   margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1180px) {
+  .answer__container {
+    text-align: center;
+  }
+  .answer__container-description {
+    padding: 0 20px;
+  }
 }
 
 .partners {
@@ -924,5 +959,12 @@ button {
   font: 400 16px Open Sans;
   line-height: 22px;
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 1170px) {
+  .footer__container {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
 }
 /*# sourceMappingURL=main.css.map */
