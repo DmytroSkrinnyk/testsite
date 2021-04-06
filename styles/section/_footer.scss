@@ -8,15 +8,14 @@
         align-items: center;
         flex-wrap: wrap;
 
+        @media screen and (max-width:1170px){
+                justify-content: space-around;
+        }
+
         &-description{
             font: 400 16px Open Sans;
             line-height: 22px;
             color: #FFFFFF;
         }
-    }
-}
-@media screen and (max-width:1170px){
-    .footer__container{
-        justify-content: space-around;
     }
 }

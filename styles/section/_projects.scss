@@ -1,6 +1,11 @@
 .projects{
     padding: 250px 0 180px;
 
+    &-img{
+        width: 100%;
+        min-height: 380px;
+    }
+
     &-title{
         padding-top: 60px;
         position: relative;;
@@ -10,7 +15,6 @@
         font-size: 24px;
         color: #404149;
 
-        
     }
     &__container{
         display: flex;
@@ -46,4 +50,5 @@
             }
         }
     }
+
 }

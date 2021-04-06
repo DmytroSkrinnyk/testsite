@@ -1,24 +1,22 @@
 .header{
-    background-image: url(../images/bridge.png);
-    background-size: cover;
-    background-position: left center;
     color: #ffffff;
-    padding: 20px 0 320px;
-    position: relative;
+    position:absolute;
+    top: 20px;
+    width: 100%;
+    z-index: 10;
 
      &__container{
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        @media screen and (max-width:1180px){
+            width: 90%;
+      }
      }
      &__menu{
        background-image: url(../images/menu-gamburger.png);
        width: 50px;
        height: 50px;
     }
-}
-@media screen and (max-width:1180px){
-   .header__container{
-      width: 90%;
-   }
 }

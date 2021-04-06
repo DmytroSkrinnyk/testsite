@@ -1,13 +1,19 @@
 .answer__container{
     padding: 150px 0 150px;
 
+    @media screen and (max-width:1180px){
+            text-align: center;
+        }
+
+
+
     &-title {
         font-size: 24px;
         color: #F7654A;
         text-align: start;
         position: relative;
         padding-left: 15px;
-        
+
     &:not(:last-child){
         margin-bottom: 40px;
     }
@@ -20,7 +26,6 @@
         width: 15px;
         height: 15px;
         background: url(../images/triangle.png) no-repeat;
-    
         }
     }
     &-description{
@@ -32,6 +37,10 @@
         line-height: 22px;
         color: #999999;
         margin-top: 30px;
+
+        @media screen and (max-width:1180px){
+                padding: 0 20px;
+            }
     }
 }
 .answer__container-title-question{
@@ -39,10 +48,10 @@
 }
 .check{
     display: none;
-    
+
     &:checked ~ .answer__container-description{
     display: block;
-}
+    }
 
 
 }

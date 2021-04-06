@@ -1,16 +1,29 @@
-.hero__container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.hero{
+    background-image: url(../images/bridge.png);
+    background-size: cover;
+    background-position: left center;
+    color: #ffffff;
+    padding: 192px 0 320px;
+    position: relative;
+    
+    &__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-    &-title{
-        max-width: 850px;
-        width: 100%;
-        font-size: 64px;
-        line-height: 95px;
-        margin-bottom: 30px;
-    }
-    &-description{
-        font-size: 18px
+        &-title{
+            max-width: 850px;
+            width: 100%;
+            font-size: 64px;
+            line-height: 1.5;
+            margin-bottom: 30px;
+
+            @media screen and (max-width:570px){
+               font-size: 38px;
+            }
+        }
+        &-description{
+            font-size: 18px
+        }
     }
 }
