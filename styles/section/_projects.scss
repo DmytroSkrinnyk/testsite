@@ -34,6 +34,10 @@
                 font-size: 24px;
                 color: #404149;
 
+                @media screen and (max-width:370px){
+                    text-align: center;
+                }
+
                 &:before{
                     content: "";
                     display: block;
@@ -42,11 +46,19 @@
                     height: 6px;
                     background: #F7654A;
                     bottom: 45px;
+
+                    @media screen and (max-width:370px){
+                        left: 30%;
                     }
+                }
             }
             &-description{
                 margin-top: 20px;
                 text-align: start;
+
+                @media screen and (max-width:370px){
+                    padding-left: 15px;
+                }
             }
         }
     }

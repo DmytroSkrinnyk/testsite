@@ -609,6 +609,12 @@ button {
   color: #404149;
 }
 
+@media screen and (max-width: 370px) {
+  .projects__container-item-title {
+    text-align: center;
+  }
+}
+
 .projects__container-item-title:before {
   content: "";
   display: block;
@@ -619,9 +625,21 @@ button {
   bottom: 45px;
 }
 
+@media screen and (max-width: 370px) {
+  .projects__container-item-title:before {
+    left: 30%;
+  }
+}
+
 .projects__container-item-description {
   margin-top: 20px;
   text-align: start;
+}
+
+@media screen and (max-width: 370px) {
+  .projects__container-item-description {
+    padding-left: 15px;
+  }
 }
 
 .smart-projects {
@@ -660,6 +678,12 @@ button {
   font: 500 48px Oswald;
   color: #FFFFFF;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 570px) {
+  .smart__project__container-title {
+    font-size: 38px;
+  }
 }
 
 .smart__project__container-description {
